@@ -5,8 +5,8 @@ export default function TrustSection(): React.JSX.Element {
   const trustPoints = [
     {
       icon: UserCheck,
-      title: 'Founder-Led Service',
-      description: 'Direct owner care & accountability',
+      title: 'Concierge Service',
+      description: 'Direct care & accountability from the founder',
     },
     {
       icon: MapPin,
@@ -16,7 +16,7 @@ export default function TrustSection(): React.JSX.Element {
     {
       icon: ShieldCheck,
       title: '32-Point Cleaning Process',
-      description: 'Systematic white-glove inspection',
+      description: 'Paired with our 32-point inspection before & after',
     },
     {
       icon: CalendarCheck,
