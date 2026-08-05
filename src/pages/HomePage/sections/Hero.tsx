@@ -13,7 +13,7 @@ export default function HeroSection(): React.JSX.Element {
           videoSrc="https://storage.googleapis.com/webild/users/user_3HGof9QZxBPIQg7h8T53jziZ9o1/uploaded-1785935246434-glgcsti0.mp4?_wi=2"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#02066f] via-[#02066f]/70 to-[#02066f]/40" />
+        <div className="absolute inset-0 bg-black/50" />
       </div>
 
       <div className="w-content-width mx-auto flex flex-col items-center text-center text-white relative z-10 gap-6">
