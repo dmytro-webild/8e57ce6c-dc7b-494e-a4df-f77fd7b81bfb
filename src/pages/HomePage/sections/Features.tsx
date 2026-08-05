@@ -10,12 +10,12 @@ export default function FeaturesSection(): React.JSX.Element {
     <div id="features" data-section="features">
         <SectionErrorBoundary name="features">
               <FeaturesArrowCards
-          tag="The Membership"
-          title="Membership Benefits"
-          description="Comprehensive care for your home's most vital exterior features."
+          tag="How it works"
+          title="Home Care Club"
+          description="Exterior care without the hassle"
           items={[
             {
-              title: "Exterior Facade Cleaning",
+              title: "SRestoration",
               tags: [
                 "Deep Clean",
                 "Safe",
@@ -23,7 +23,7 @@ export default function FeaturesSection(): React.JSX.Element {
               imageSrc: "http://img.b2bpic.net/free-photo/abstract-city-building-shadows_23-2149283297.jpg",
             },
             {
-              title: "Window & Trim Care",
+              title: "Window Cleaning",
               tags: [
                 "Precision",
                 "Clear",
