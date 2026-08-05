@@ -18,11 +18,11 @@ export default function HeroSection(): React.JSX.Element {
 
       <div className="w-content-width mx-auto flex flex-col items-center text-center text-white relative z-10 gap-6">
         <div className="px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs md:text-sm font-medium uppercase tracking-widest text-[#a57d30]">
-          Exclusive South Florida Real Estate
+          Premium Exterior Care for East Broward
         </div>
 
         <TextAnimation
-          text="Elevated South Florida Living Defined"
+          text="Your Home’s Exterior, Beautifully Maintained Year-Round."
           variant="slide-up"
           gradientText={false}
           tag="h1"
@@ -40,7 +40,7 @@ export default function HeroSection(): React.JSX.Element {
         <ScrollReveal variant="slide-up" delay={0.2}>
           <div className="flex flex-wrap items-center justify-center gap-4 mt-4">
             <Button
-              text="Explore Featured Properties"
+              text="Call Now"
               variant="primary"
               href="#properties"
             />
