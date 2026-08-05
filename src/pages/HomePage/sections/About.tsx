@@ -15,7 +15,6 @@ export default function AboutSection() {
               
               {/* Small Gold Eyebrow */}
               <div className="inline-flex items-center gap-2 mb-4">
-                <span className="h-px w-6 bg-accent" />
                 <span className="text-xs md:text-sm font-semibold tracking-wider text-accent uppercase">
                   Exterior Care Without the Hassle
                 </span>
