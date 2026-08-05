@@ -41,7 +41,7 @@ export default function AboutSection() {
                       Always Guest-Ready
                     </h3>
                     <p className="text-sm md:text-base text-foreground/70 mt-0.5">
-                      Proactive maintenance schedules keep your property immaculate
+                      Proactive maintenance schedules keep your property looking its best year-round
                     </p>
                   </div>
                 </div>
