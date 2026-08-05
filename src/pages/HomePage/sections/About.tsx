@@ -14,7 +14,7 @@ export default function AboutSection(): React.JSX.Element {
           quote="Mister Exteriors isn't about pressure washing. It's about an unwavering commitment to the preservation and perfection of your home's exterior presentation."
           author="The Mister Exteriors Team"
           role="Premium Home Care Specialists"
-          videoSrc="https://storage.googleapis.com/webild/users/user_3HGof9QZxBPIQg7h8T53jziZ9o1/uploaded-1785935246434-glgcsti0.mp4"
+          videoSrc="https://storage.googleapis.com/webild/users/user_3HGof9QZxBPIQg7h8T53jziZ9o1/uploaded-1785935246434-glgcsti0.mp4?_wi=1"
           textAnimation="slide-up"
         />
         </SectionErrorBoundary>
