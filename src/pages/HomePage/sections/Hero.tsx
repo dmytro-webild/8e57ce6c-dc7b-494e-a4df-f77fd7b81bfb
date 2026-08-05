@@ -1,0 +1,57 @@
+import React from 'react';
+import Button from '@/components/ui/Button';
+import TextAnimation from '@/components/ui/TextAnimation';
+import ImageOrVideo from '@/components/ui/ImageOrVideo';
+import ScrollReveal from '@/components/ui/ScrollReveal';
+
+export default function HeroSection(): React.JSX.Element {
+  return (
+    <section data-webild-section="Hero" className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden">
+      {/* Single full-width cinematic hero background */}
+      <div className="absolute inset-0 -z-10 w-full h-full">
+        <ImageOrVideo
+          imageSrc="https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=2000&q=85"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#02066f] via-[#02066f]/70 to-[#02066f]/40" />
+      </div>
+
+      <div className="w-content-width mx-auto flex flex-col items-center text-center text-white relative z-10 gap-6">
+        <div className="px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs md:text-sm font-medium uppercase tracking-widest text-[#a57d30]">
+          Exclusive South Florida Real Estate
+        </div>
+
+        <TextAnimation
+          text="Elevated South Florida Living Defined"
+          variant="slide-up"
+          gradientText={false}
+          tag="h1"
+          className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white max-w-content-width leading-tight"
+        />
+
+        <TextAnimation
+          text="Discover extraordinary waterfront estates and architectural masterpieces across Palm Beach, Miami, and Naples."
+          variant="slide-up"
+          gradientText={false}
+          tag="p"
+          className="text-lg md:text-2xl text-white/80 max-w-content-width font-light leading-relaxed"
+        />
+
+        <ScrollReveal variant="slide-up" delay={0.2}>
+          <div className="flex flex-wrap items-center justify-center gap-4 mt-4">
+            <Button
+              text="Explore Featured Properties"
+              variant="primary"
+              href="#properties"
+            />
+            <Button
+              text="Schedule Private Tour"
+              variant="secondary"
+              href="#contact"
+            />
+          </div>
+        </ScrollReveal>
+      </div>
+    </section>
+  );
+}
