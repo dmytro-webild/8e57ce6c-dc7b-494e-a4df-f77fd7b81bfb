@@ -44,7 +44,7 @@ export default function Layout() {
         <NavbarFullscreenStatic
       logo="Mister Exteriors"
       ctaButton={{
-        text: "Apply for Club",
+        text: "Call Now",
         href: "#contact",
       }}
      navItems={navItems} />
