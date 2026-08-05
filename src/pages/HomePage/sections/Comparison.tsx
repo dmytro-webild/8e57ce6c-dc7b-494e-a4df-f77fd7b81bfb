@@ -4,19 +4,19 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 
 export default function ComparisonSection() {
   const oldWayItems = [
-    "Wait until the home looks dirty",
-    "Search for another contractor",
-    "Compare quotes",
-    "Chase schedules",
-    "Hope the work is done right"
+    "Untrained & unreliable staff",
+    "Reactive cleaning",
+    "They clean your home, collect payment, & leave",
+    "Hope every area was cleaned properly",
+    "High Pressure Everywhere"
   ];
 
   const misterExteriorsItems = [
-    "Scheduled care before buildup takes over",
-    "One reliable point of contact",
-    "A clear ongoing care plan",
-    "Visits planned and handled for you",
-    "Every visit follows our 32-point process"
+    "Certified, vetted, insured, & trained on our 32-point standard",
+    "Proactive exterior cleaning so curb appeal never slips",
+    "Complete restoration and preventive treatment; we leave everything better than we found it, and an optional walkthrough",
+    "Specializing in softwashing and using only pressure when necessary and pre-inspection + post-inspection",
+    "Specializing in softwashing and using only pressure when necessary"
   ];
 
   return (
