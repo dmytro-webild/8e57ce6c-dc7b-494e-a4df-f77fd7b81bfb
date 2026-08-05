@@ -60,14 +60,14 @@ export default function ComparisonSection() {
               </div>
             </ScrollReveal>
 
-            {/* The Mister Exteriors Way Column */}
+            {/* Mister Exteriors Column */}
             <ScrollReveal variant="fade-blur" delay={0.15} className="flex flex-col justify-between p-8 md:p-10 rounded-xl bg-card border border-accent/30 shadow-sm relative">
               <div>
                 <span className="text-xs font-semibold tracking-wider text-accent uppercase block mb-2">
                   The Better Way
                 </span>
                 <h3 className="text-2xl font-semibold text-[#02066f] mb-8 pb-4 border-b border-accent/15">
-                  The Mister Exteriors Way
+                  Mister Exteriors
                 </h3>
                 <div className="space-y-6">
                   {misterExteriorsItems.map((item, idx) => (
@@ -121,7 +121,7 @@ export default function ComparisonSection() {
                 The Better Way
               </span>
               <h3 className="text-xl font-semibold text-[#02066f] mb-6 pb-3 border-b border-accent/15">
-                The Mister Exteriors Way
+                Mister Exteriors
               </h3>
               <div className="space-y-5">
                 {misterExteriorsItems.map((item, idx) => (
