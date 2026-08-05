@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from 'react';
-import { Calendar, ShieldCheck, ClipboardCheck, ArrowRight } from 'lucide-react';
+import { Sparkles, ShieldCheck, ClipboardCheck, ArrowRight } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
 export default function AboutSection() {
@@ -34,7 +34,7 @@ export default function AboutSection() {
               <div className="space-y-6 mb-10">
                 <div className="flex items-start gap-4">
                   <div className="shrink-0 p-2.5 rounded-full bg-accent/10 text-accent mt-0.5">
-                    <Calendar className="size-5" strokeWidth={1.75} />
+                    <Sparkles className="size-5" strokeWidth={1.75} />
                   </div>
                   <div>
                     <h3 className="text-base md:text-lg font-semibold text-foreground">
