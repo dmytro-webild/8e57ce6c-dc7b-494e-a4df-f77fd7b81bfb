@@ -45,7 +45,7 @@ export default function HeroSection(): React.JSX.Element {
               href="#properties"
             />
             <Button
-              text="Schedule Private Tour"
+              text="Request 32-Point Inspection"
               variant="secondary"
               href="#contact"
             />
