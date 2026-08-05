@@ -30,7 +30,7 @@ export default function HeroSection(): React.JSX.Element {
         />
 
         <TextAnimation
-          text="Discover extraordinary waterfront estates and architectural masterpieces across Palm Beach, Miami, and Naples."
+          text="Hassle-free, scheduled cleanings that follow our 32-point cleaning process so your home never falls below our 32-Point Standard."
           variant="slide-up"
           gradientText={false}
           tag="p"
