@@ -10,7 +10,7 @@ export default function HeroSection(): React.JSX.Element {
       {/* Single full-width cinematic hero background */}
       <div className="absolute inset-0 -z-10 w-full h-full">
         <ImageOrVideo
-          videoSrc="https://storage.googleapis.com/webild/users/user_3HGof9QZxBPIQg7h8T53jziZ9o1/uploaded-1785935246434-glgcsti0.mp4"
+          videoSrc="https://storage.googleapis.com/webild/users/user_3HGof9QZxBPIQg7h8T53jziZ9o1/uploaded-1785935246434-glgcsti0.mp4?_wi=2"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#02066f] via-[#02066f]/70 to-[#02066f]/40" />
