@@ -8,10 +8,12 @@ import TestimonialsSection from './HomePage/sections/Testimonials';
 import FaqSection from './HomePage/sections/Faq';
 import ContactSection from './HomePage/sections/Contact';
 
-export default function HomePage(): React.JSX.Element {
+
+import TrustSection from './HomePage/sections/Trust';export default function HomePage(): React.JSX.Element {
   return (
     <>
       <HeroSection />
+      <TrustSection />
       <AboutSection />
       <FeaturesSection />
       <ProcessSection />
