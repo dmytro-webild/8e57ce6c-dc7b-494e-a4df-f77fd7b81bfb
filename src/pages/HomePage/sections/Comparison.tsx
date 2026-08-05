@@ -8,7 +8,9 @@ export default function ComparisonSection() {
     "Reactive cleaning",
     "They clean your home, collect payment, & leave",
     "Hope every area was cleaned properly",
-    "High Pressure Everywhere"
+    "High Pressure Everywhere",
+    "Inconsistent communication and unknown staff",
+    "No record or history of past service details"
   ];
 
   const misterExteriorsItems = [
@@ -16,7 +18,9 @@ export default function ComparisonSection() {
     "Proactive exterior cleaning so curb appeal never slips",
     "Complete restoration and preventive treatment; we leave everything better than we found it, and an optional walkthrough",
     "Specializing in softwashing and using only pressure when necessary and pre-inspection + post-inspection",
-    "Specializing in softwashing and using only pressure when necessary"
+    "Specializing in softwashing and using only pressure when necessary",
+    "Dedicated point of contact with the founder",
+    "'Exterior Health Record' tracks completed services, conditions, and areas that may need attention"
   ];
 
   return (
