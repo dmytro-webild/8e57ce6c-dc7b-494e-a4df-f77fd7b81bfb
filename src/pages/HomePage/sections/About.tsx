@@ -15,111 +15,46 @@ type AboutTestimonialProps = {
 
 const AboutInline = () => {
   return (
-    <div data-webild-section="about" data-section="about" id="about">
-  <section className="py-20 md:py-28 bg-[#f8f5f0]">
-    <div className="w-content-width mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-        {/* Left Column: Copy & Benefits */}
-        <div className="lg:col-span-7 flex flex-col justify-center">
-          {/* Eyebrow */}
-          <div className="inline-flex items-center gap-2 mb-4">
-            <span className="h-2 w-2 rounded-full bg-[#a57d30]" />
-            <span className="text-xs md:text-sm font-semibold tracking-wider text-[#a57d30] uppercase">
-              Exterior Care Without the Hassle
-            </span>
+    <section aria-label="Testimonial section" className="py-20">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-5 mx-auto w-content-width">
+        <div className="relative md:col-span-3 p-10 md:p-20 card rounded">
+          <div className="absolute flex items-center justify-center -top-7 -left-7 md:-top-8 md:-left-8 size-14 md:size-16 primary-button rounded">
+            <Quote className="h-5/10 text-primary-cta-text" strokeWidth={1.5} />
           </div>
 
-          {/* Headline */}
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-[#02066f] leading-[1.18] tracking-tight mb-6">
-            A Cleaner, Better-Maintained Home—Without Chasing Contractors.
-          </h2>
-
-          {/* Paragraph */}
-          <p className="text-base md:text-lg text-[#02066f]/80 leading-relaxed mb-8 max-w-2xl">
-            Mister Exteriors handles scheduled exterior cleanings through a clear 32-point process so the home stays clean and cared for year-round.
-          </p>
-
-          {/* Benefit Points */}
-          <div className="space-y-6 mb-10">
-            <div className="flex items-start gap-4">
-              <div className="p-2.5 rounded-lg bg-[#a57d30]/10 text-[#a57d30] shrink-0 mt-0.5">
-                <svg className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                  <line x1="16" y1="2" x2="16" y2="6" />
-                  <line x1="8" y1="2" x2="8" y2="6" />
-                  <line x1="3" y1="10" x2="21" y2="10" />
-                  <path d="M9 16l2 2 4-4" />
-                </svg>
-              </div>
-              <div>
-                <h3 className="text-base font-semibold text-[#02066f]">
-                  Scheduled Cleanings
-                </h3>
-                <p className="text-sm text-[#02066f]/75 mt-0.5">
-                  Automated exterior care visits planned proactively so your home never loses its pristine curb appeal.
-                </p>
-              </div>
+          <div className="relative flex flex-col justify-center gap-5 h-full">
+            <div className="w-fit px-3 py-1 mb-1 text-sm card rounded">
+              <p>{"Our Philosophy"}</p>
             </div>
 
-            <div className="flex items-start gap-4">
-              <div className="p-2.5 rounded-lg bg-[#a57d30]/10 text-[#a57d30] shrink-0 mt-0.5">
-                <svg className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                  <path d="M9 12l2 2 4-4" />
-                </svg>
-              </div>
-              <div>
-                <h3 className="text-base font-semibold text-[#02066f]">
-                  One Reliable Team
-                </h3>
-                <p className="text-sm text-[#02066f]/75 mt-0.5">
-                  A single accountable partner who knows your property and maintains it with concierge-level diligence.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4">
-              <div className="p-2.5 rounded-lg bg-[#a57d30]/10 text-[#a57d30] shrink-0 mt-0.5">
-                <svg className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                  <path d="M9 11l3 3L22 4" />
-                  <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
-                </svg>
-              </div>
-              <div>
-                <h3 className="text-base font-semibold text-[#02066f]">
-                  Consistent 32-Point Care
-                </h3>
-                <p className="text-sm text-[#02066f]/75 mt-0.5">
-                  Every square inch inspected and cleaned to our strict proprietary standard every single session.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* CTA Button */}
-          <div>
-            <a
-              href="#contact"
-              className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-[#02066f] text-white font-medium text-base rounded-md hover:bg-[#02066f]/90 transition-all duration-200 text-center"
-            >
-              Get My Free Exterior Inspection
-            </a>
-          </div>
-        </div>
-
-        {/* Right Column: High Quality Image */}
-        <div className="lg:col-span-5">
-          <div className="relative rounded-2xl overflow-hidden aspect-[4/5] md:aspect-[3/4] w-full">
-            <img
-              src="https://storage.googleapis.com/webild/users/user_3HGof9QZxBPIQg7h8T53jziZ9o1/uploaded-1785937608634-rc2blac9.png"
-              alt="Luxury South Florida Home Exterior"
-              className="w-full h-full object-cover object-center"
+            <TextAnimation
+              text={"Mister Exteriors isn't about pressure washing. It's about an unwavering commitment to the preservation and perfection of your home's exterior presentation."}
+              variant={"slide-up"}
+              gradientText={false}
+              tag="h1"
+              className="text-4xl md:text-5xl leading-[1.15] font-semibold text-balance"
             />
+
+            <div className="flex items-center gap-2 min-w-0">
+              <span className="text-base font-medium truncate">{"The Mister Exteriors Team"}</span>
+              <span className="text-accent shrink-0">•</span>
+              <span className="text-base font-medium truncate">{"Premium Home Care Specialists"}</span>
+            </div>
           </div>
         </div>
+
+        <ScrollReveal variant="fade" className="p-px md:col-span-2 aspect-square md:aspect-auto md:h-full card rounded overflow-hidden">
+          <ImageOrVideo imageSrc={"https://storage.googleapis.com/webild/users/user_3HGof9QZxBPIQg7h8T53jziZ9o1/uploaded-1785937608634-rc2blac9.png"} />
+        </ScrollReveal>
       </div>
+    </section>
+  );
+};
+
+export default function AboutSection() {
+  return (
+    <div data-webild-section="about" data-section="about" id="about">
+      <AboutInline />
     </div>
-  </section>
-</div>
   );
 }
