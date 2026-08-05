@@ -96,7 +96,7 @@ export default function AboutSection() {
             >
               <div className="relative aspect-[4/3] lg:aspect-[4/5] w-full rounded-lg overflow-hidden bg-card">
                 <img
-                  src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+                  src="https://storage.googleapis.com/webild/users/user_3HGof9QZxBPIQg7h8T53jziZ9o1/uploaded-1785937528591-z3og8050.png"
                   alt="Pristine South Florida luxury home exterior"
                   className="w-full h-full object-cover object-center"
                   loading="lazy"
