@@ -22,12 +22,12 @@ export default function AboutSection() {
 
               {/* Headline */}
               <h2 className="text-3xl md:text-5xl font-semibold text-foreground leading-[1.18] tracking-tight mb-6 text-balance">
-                A Cleaner, Better-Maintained Home—Without Chasing Contractors.
+                Come Home to a House That Always Looks Its Best
               </h2>
 
               {/* Paragraph */}
               <p className="text-base md:text-lg text-foreground/80 leading-relaxed mb-8 max-w-2xl">
-                Mister Exteriors handles scheduled exterior cleanings through a clear 32-point process so your home stays clean, pristine, and thoroughly cared for year-round.
+                Mister Exteriors keeps your home’s exterior beautiful, cared for, and ready to impress through scheduled service and our 32-point process.
               </p>
 
               {/* 3 Benefit Points with Gold Icons */}
@@ -38,10 +38,10 @@ export default function AboutSection() {
                   </div>
                   <div>
                     <h3 className="text-base md:text-lg font-semibold text-foreground">
-                      Scheduled Cleanings
+                      Always Guest-Ready
                     </h3>
                     <p className="text-sm md:text-base text-foreground/70 mt-0.5">
-                      Proactive maintenance schedules keep your property immaculate without reminding.
+                      Proactive maintenance schedules keep your property immaculate
                     </p>
                   </div>
                 </div>
@@ -52,10 +52,10 @@ export default function AboutSection() {
                   </div>
                   <div>
                     <h3 className="text-base md:text-lg font-semibold text-foreground">
-                      One Reliable Team
+                      Hassle Free
                     </h3>
                     <p className="text-sm md:text-base text-foreground/70 mt-0.5">
-                      Dedicated, vetted exterior specialists who take complete ownership of your home care.
+                      From vetted & certified staff to scheduling done for you, we make it as easy as possible
                     </p>
                   </div>
                 </div>
@@ -69,7 +69,7 @@ export default function AboutSection() {
                       Consistent 32-Point Care
                     </h3>
                     <p className="text-sm md:text-base text-foreground/70 mt-0.5">
-                      Every visit follows our rigorous 32-point inspection and cleaning protocol for uncompromised quality.
+                      Every visit follows our rigorous 32-point inspection and cleaning protocol for unrelenting quality.
                     </p>
                   </div>
                 </div>
