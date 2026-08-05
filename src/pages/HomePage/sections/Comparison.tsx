@@ -33,7 +33,7 @@ export default function ComparisonSection() {
               A Better Way to Care for Your Home
             </span>
             <h2 className="text-3xl md:text-5xl font-semibold text-foreground leading-[1.18] tracking-tight text-balance">
-              Stop Waiting Until Your Home Looks Neglected
+              See Why Luxury Homeowners Love To Work With Us
             </h2>
           </ScrollReveal>
 
