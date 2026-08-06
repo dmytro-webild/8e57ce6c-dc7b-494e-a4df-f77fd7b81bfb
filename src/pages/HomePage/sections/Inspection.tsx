@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, ShieldCheck, DoorOpen, Palmtree, ArrowRight } from 'lucide-react';
+import { Home, ShieldCheck, DoorOpen, Waves, ArrowRight } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
 export default function InspectionSection() {
@@ -20,7 +20,7 @@ export default function InspectionSection() {
       subtitle: "Driveways, walkways, stone & front entries"
     },
     {
-      icon: Palmtree,
+      icon: Waves,
       title: "Outdoor Living & Property Features",
       subtitle: "Pool decks, patios, walls & outdoor structures"
     }
