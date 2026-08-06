@@ -1,5 +1,4 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
 export default function InspectionSection() {
@@ -30,10 +29,10 @@ export default function InspectionSection() {
 
   return (
     <div data-webild-section="inspection" data-section="inspection" id="inspection">
-  <section aria-label="32-Point Unrelenting Standard" className="py-16 md:py-24 bg-[#f1ece4] text-[#02066f] overflow-hidden border-b border-[#02066f]/10">
+  <section aria-label="32-Point Unrelenting Standard" className="bg-[#f1ece4] text-[#02066f] overflow-hidden border-b border-[#02066f]/10">
     <div className="w-content-width mx-auto">
       {/* Header / Intro */}
-      <ScrollReveal variant="slide-up" className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
+      <ScrollReveal variant="slide-up" className="text-center max-w-content-width mx-auto">
         <span className="text-xs md:text-sm font-semibold tracking-wider text-[#bf9945] uppercase block mb-3">
           The 32-Point Unrelenting Standard™
         </span>
@@ -46,8 +45,8 @@ export default function InspectionSection() {
       </ScrollReveal>
 
       {/* Three-Stage Process */}
-      <ScrollReveal variant="fade-blur" delay={0.1} className="mb-16 md:mb-20">
-        <div className="relative max-w-5xl mx-auto">
+      <ScrollReveal variant="fade-blur" delay={0.1} className="">
+        <div className="relative max-w-content-width mx-auto">
           {/* Connecting Gold Line for Desktop */}
           <div 
             className="hidden md:block absolute top-7 left-[15%] right-[15%] h-[1px] bg-[#bf9945]/40 z-0" 
@@ -60,9 +59,9 @@ export default function InspectionSection() {
             aria-hidden="true" 
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8 relative z-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 relative z-10">
             {stages.map((stage, idx) => (
-              <div key={idx} className="flex flex-col items-start md:items-center text-left md:text-center pl-16 md:pl-0 relative">
+              <div key={idx} className="flex flex-col items-start md:items-center text-left md:text-center md:pl-0 relative">
                 {/* Number Icon */}
                 <div className="absolute md:relative left-0 md:left-auto top-0 md:top-auto shrink-0 size-14 rounded-full bg-[#f1ece4] border border-[#bf9945] flex items-center justify-center text-[#bf9945] font-semibold text-base mb-4 shadow-sm">
                   {stage.number}
@@ -70,7 +69,7 @@ export default function InspectionSection() {
                 <h3 className="text-xl font-semibold text-[#02066f] mb-2">
                   {stage.title}
                 </h3>
-                <p className="text-sm text-[#02066f]/75 leading-relaxed max-w-xs">
+                <p className="text-sm text-[#02066f]/75 leading-relaxed max-w-content-width">
                   {stage.copy}
                 </p>
               </div>
@@ -80,8 +79,8 @@ export default function InspectionSection() {
       </ScrollReveal>
 
       {/* Scope Row */}
-      <ScrollReveal variant="fade" delay={0.2} className="mb-16 md:mb-20">
-        <div className="max-w-4xl mx-auto py-6 px-4 border-y border-[#bf9945]/30">
+      <ScrollReveal variant="fade" delay={0.2} className="">
+        <div className="max-w-content-width mx-auto py-6 px-4 border-y border-[#bf9945]/30">
           <div className="grid grid-cols-2 md:flex md:flex-row md:items-center md:justify-between gap-4 text-center">
             {scopeAreas.map((area, idx) => (
               <React.Fragment key={idx}>
@@ -100,12 +99,12 @@ export default function InspectionSection() {
       </ScrollReveal>
 
       {/* Guarantee Band */}
-      <ScrollReveal variant="slide-up" delay={0.25} className="mb-12">
-        <div className="bg-white/80 backdrop-blur-sm rounded-xl p-8 md:p-10 border border-[#bf9945]/30 shadow-sm text-center max-w-3xl mx-auto">
+      <ScrollReveal variant="slide-up" delay={0.25} className="">
+        <div className="bg-white/80 backdrop-blur-sm rounded-xl p-8 border border-[#bf9945]/30 shadow-sm text-center max-w-content-width mx-auto">
           <h3 className="text-2xl md:text-3xl font-semibold text-[#02066f] mb-3">
             Maintained Between Visits
           </h3>
-          <p className="text-base text-[#02066f]/85 max-w-2xl mx-auto mb-4 leading-relaxed">
+          <p className="text-base text-[#02066f]/85 max-w-content-width mx-auto mb-4 leading-relaxed">
             If normal outdoor conditions bring a maintained area below 80% before your next scheduled service, we’ll return and restore it at no additional cost.
           </p>
           <p className="text-xs md:text-sm text-[#02066f]/60 font-medium italic">
