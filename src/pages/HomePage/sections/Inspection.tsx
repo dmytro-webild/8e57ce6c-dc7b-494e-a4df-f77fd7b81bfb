@@ -80,7 +80,7 @@ export default function InspectionSection() {
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
             <p className="text-xs md:text-sm text-[#f1ece4]/60 mt-3 font-normal">
-              Visual exterior condition assessment. No obligation to purchase service.
+              Free detailed inspection with a recommended maintenance plan
             </p>
           </ScrollReveal>
         </div>
