@@ -1,5 +1,4 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
 export default function InspectionSection() {
@@ -30,17 +29,17 @@ export default function InspectionSection() {
 
   return (
     <div data-webild-section="inspection" data-section="inspection" id="inspection">
-  <section aria-label="32-Point Unrelenting Standard" className="bg-[#02066f] text-[#f1ece4] overflow-hidden">
+  <section aria-label="32-Point Unrelenting Standard" className="bg-[#f1ece4] text-[#02066f] overflow-hidden border-b border-[#02066f]/10">
     <div className="w-content-width mx-auto">
       {/* Header / Intro */}
       <ScrollReveal variant="slide-up" className="text-center max-w-content-width mx-auto">
         <span className="text-xs md:text-sm font-semibold tracking-wider text-[#bf9945] uppercase block mb-3">
           The 32-Point Unrelenting Standard™
         </span>
-        <h2 className="text-3xl md:text-5xl font-semibold text-[#f1ece4] leading-[1.18] tracking-tight text-balance mb-5">
+        <h2 className="text-3xl md:text-5xl font-semibold text-[#02066f] leading-[1.18] tracking-tight text-balance mb-5">
           The Inspection Sets the Standard. The Cleaning Meets It.
         </h2>
-        <p className="text-base md:text-lg text-[#f1ece4]/80 leading-relaxed text-balance">
+        <p className="text-base md:text-lg text-[#02066f]/80 leading-relaxed text-balance">
           Before every service, we inspect and score 32 areas of your home’s exterior. What we find creates the cleaning plan. After the work is complete, we inspect the same areas again to verify the results.
         </p>
       </ScrollReveal>
@@ -64,13 +63,13 @@ export default function InspectionSection() {
             {stages.map((stage, idx) => (
               <div key={idx} className="flex flex-col items-start md:items-center text-left md:text-center md:pl-0 relative">
                 {/* Number Icon */}
-                <div className="absolute md:relative left-0 md:left-auto top-0 md:top-auto shrink-0 size-14 rounded-full bg-[#02066f] border border-[#bf9945] flex items-center justify-center text-[#bf9945] font-semibold text-base mb-4 shadow-sm">
+                <div className="absolute md:relative left-0 md:left-auto top-0 md:top-auto shrink-0 size-14 rounded-full bg-[#f1ece4] border border-[#bf9945] flex items-center justify-center text-[#bf9945] font-semibold text-base mb-4 shadow-sm">
                   {stage.number}
                 </div>
-                <h3 className="text-xl font-semibold text-[#f1ece4] mb-2">
+                <h3 className="text-xl font-semibold text-[#02066f] mb-2">
                   {stage.title}
                 </h3>
-                <p className="text-sm text-[#f1ece4]/75 leading-relaxed max-w-content-width">
+                <p className="text-sm text-[#02066f]/75 leading-relaxed max-w-content-width">
                   {stage.copy}
                 </p>
               </div>
@@ -80,48 +79,47 @@ export default function InspectionSection() {
       </ScrollReveal>
 
       {/* Scope Row */}
-      <ScrollReveal variant="fade-blur" delay={0.2} className="">
-        <div className="hidden md:flex items-center justify-center gap-6 text-sm font-medium text-[#f1ece4]/90">
-          {scopeAreas.map((area, idx, arr) => (
-            <React.Fragment key={idx}>
-              <span>{area}</span>
-              {idx < arr.length - 1 && (
-                <span className="w-1.5 h-1.5 rounded-full bg-[#bf9945]" aria-hidden="true" />
-              )}
-            </React.Fragment>
-          ))}
-        </div>
-        <div className="grid md:hidden grid-cols-2 gap-4 text-center text-sm font-medium text-[#f1ece4]/90">
-          {scopeAreas.map((area, idx) => (
-            <div key={idx} className="p-3 border border-[#bf9945]/30 rounded-lg bg-[#02066f]/50">
-              {area}
-            </div>
-          ))}
+      <ScrollReveal variant="fade" delay={0.2} className="">
+        <div className="max-w-content-width mx-auto py-6 px-4 border-y border-[#bf9945]/30">
+          <div className="grid grid-cols-2 md:flex md:flex-row md:items-center md:justify-between gap-4 text-center">
+            {scopeAreas.map((area, idx) => (
+              <React.Fragment key={idx}>
+                <span className="text-sm md:text-base font-medium text-[#02066f] tracking-tight">
+                  {area}
+                </span>
+                {idx < scopeAreas.length - 1 && (
+                  <span className="hidden md:inline-block text-[#bf9945] text-xs" aria-hidden="true">
+                    ◆
+                  </span>
+                )}
+              </React.Fragment>
+            ))}
+          </div>
         </div>
       </ScrollReveal>
 
-      {/* Guarantee Band & CTA */}
-      <ScrollReveal variant="slide-up" delay={0.3} className="max-w-content-width mx-auto text-center">
-        {/* Guarantee Div - Off-white background with dark blue text */}
-        <div className="bg-[#f1ece4] border-t-2 border-[#bf9945] rounded-xl p-8 text-center shadow-lg">
-          <h3 className="text-xl md:text-2xl font-semibold text-[#02066f] mb-3">
+      {/* Guarantee Band */}
+      <ScrollReveal variant="slide-up" delay={0.25} className="">
+        <div className="bg-white/80 backdrop-blur-sm rounded-xl p-8 border border-[#bf9945]/30 shadow-sm text-center max-w-content-width mx-auto">
+          <h3 className="text-2xl md:text-3xl font-semibold text-[#02066f] mb-3">
             Maintained Between Visits
           </h3>
-          <p className="text-sm md:text-base text-[#02066f]/90 leading-relaxed max-w-content-width mx-auto mb-4">
+          <p className="text-base text-[#02066f]/85 max-w-content-width mx-auto mb-4 leading-relaxed">
             If normal outdoor conditions bring a maintained area below 80% before your next scheduled service, we’ll return and restore it at no additional cost.
           </p>
-          <p className="text-xs md:text-sm text-[#02066f]/75 italic">
+          <p className="text-xs md:text-sm text-[#02066f]/60 font-medium italic">
             A final walkthrough with the founder is also available upon request.
           </p>
         </div>
+      </ScrollReveal>
 
-        {/* CTA Button */}
+      {/* Centered CTA Button */}
+      <ScrollReveal variant="fade" delay={0.3} className="text-center">
         <a
           href="#contact"
-          className="inline-flex items-center justify-center w-full sm:w-auto px-8 py-4 bg-[#bf9945] hover:bg-[#a57d30] text-[#02066f] font-semibold rounded-lg transition-colors shadow-md text-base"
+          className="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-[#bf9945] hover:bg-[#a57d30] text-[#02066f] font-semibold text-base transition-all duration-200 shadow-md hover:shadow-lg w-full sm:w-auto"
         >
           Experience the Unrelenting Standard
-          <ArrowRight className="ml-2 size-5" />
         </a>
       </ScrollReveal>
     </div>
