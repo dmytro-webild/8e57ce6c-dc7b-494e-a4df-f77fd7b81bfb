@@ -81,28 +81,26 @@ export default function InspectionSection() {
 
           {/* Scope Row */}
           <ScrollReveal variant="slide-up" delay={0.15} className="mb-16 md:mb-20">
-            <div className="max-w-4xl mx-auto py-6 px-4 border-y border-[#bf9945]/20">
+            <div className="max-w-5xl mx-auto py-6 px-4 border-y border-[#bf9945]/20">
               {/* Desktop Horizontal Row with Dividers */}
-              <div className="hidden md:flex items-center justify-between text-center">
+              <div className="hidden md:flex items-center justify-between text-center gap-2">
                 {scopeAreas.map((area, idx) => (
                   <React.Fragment key={idx}>
-                    <span className="text-sm font-medium text-[#f1ece4] tracking-wide">
+                    <div className="flex-1 bg-[#f1ece4] text-[#02066f] border border-[#bf9945]/50 rounded-lg px-4 py-3 text-xs lg:text-sm font-semibold tracking-wide shadow-sm text-center flex items-center justify-center">
                       {area}
-                    </span>
+                    </div>
                     {idx !== scopeAreas.length - 1 && (
-                      <span className="h-4 w-[1px] bg-[#bf9945]/40" aria-hidden="true" />
+                      <span className="h-6 w-[1px] bg-[#bf9945]/40 shrink-0 mx-2" aria-hidden="true" />
                     )}
                   </React.Fragment>
                 ))}
               </div>
 
               {/* Mobile 2-Column Grid */}
-              <div className="grid md:hidden grid-cols-2 gap-4 text-center">
+              <div className="grid md:hidden grid-cols-2 gap-3 text-center">
                 {scopeAreas.map((area, idx) => (
-                  <div key={idx} className="p-2">
-                    <span className="text-xs sm:text-sm font-medium text-[#f1ece4]">
-                      {area}
-                    </span>
+                  <div key={idx} className="bg-[#f1ece4] text-[#02066f] border border-[#bf9945]/50 rounded-lg p-3 text-xs font-semibold flex items-center justify-center">
+                    {area}
                   </div>
                 ))}
               </div>
