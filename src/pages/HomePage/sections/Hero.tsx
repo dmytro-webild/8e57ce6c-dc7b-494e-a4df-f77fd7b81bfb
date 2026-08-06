@@ -17,7 +17,7 @@ export default function HeroSection(): React.JSX.Element {
       </div>
 
       <div className="w-content-width mx-auto flex flex-col items-center text-center text-white relative z-10 gap-6">
-        <div className="px-4 py-1.5 rounded-full bg-black/80 backdrop-blur-md border border-white/20 text-xs md:text-sm font-semibold uppercase tracking-widest text-amber-300">
+        <div className="px-4 py-1.5 rounded-full bg-[#02066f]/80 backdrop-blur-md border border-white/20 text-xs md:text-sm font-semibold uppercase tracking-widest text-[#bf9945]">
           Premium Exterior Care for East Broward
         </div>
 
