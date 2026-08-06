@@ -38,7 +38,7 @@ export default function InspectionSection() {
               The 32-Point Unrelenting Standard™
             </span>
             <h2 className="text-3xl md:text-5xl font-semibold text-[#f1ece4] leading-[1.18] tracking-tight text-balance mb-5">
-              The Inspection Sets the Standard. The Cleaning Meets It.
+              A Clear Standard for Keeping Your Home at Its Best.
             </h2>
             <p className="text-base md:text-lg text-[#f1ece4]/80 leading-relaxed text-balance">
               Before every service, we inspect and score 32 areas of your home’s exterior. What we find creates the cleaning plan. After the work is complete, we inspect the same areas again to verify the results.
@@ -119,7 +119,7 @@ export default function InspectionSection() {
                 If normal outdoor conditions bring a maintained area below 80% before your next scheduled service, we’ll return and restore it at no additional cost.
               </p>
               <p className="text-xs md:text-sm text-[#bf9945] font-medium">
-                A final walkthrough with the founder is also available upon request.
+                
               </p>
             </div>
           </ScrollReveal>
@@ -130,7 +130,7 @@ export default function InspectionSection() {
               href="#contact"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#bf9945] text-[#02066f] font-semibold text-base px-8 py-4 rounded hover:bg-[#bf9945]/90 transition-colors group text-center"
             >
-              <span>Experience the Unrelenting Standard</span>
+              <span>Get Your Free 32-Point Inspection</span>
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
           </ScrollReveal>
