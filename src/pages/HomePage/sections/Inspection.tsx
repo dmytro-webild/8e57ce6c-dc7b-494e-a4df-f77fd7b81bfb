@@ -11,13 +11,13 @@ export default function InspectionSection() {
     },
     {
       number: "02",
-      title: "Clean to the Standard",
+      title: "Restore to the Standard",
       copy: "The inspection guides the cleaning process, including the right method for each surface."
     },
     {
       number: "03",
       title: "Verify the Results",
-      copy: "We complete a final inspection and bring each serviceable area as close to 100% as its condition safely allows."
+      copy: "We complete a final inspection and bring each serviceable area as close to 100% as its condition allows."
     }
   ];
 
