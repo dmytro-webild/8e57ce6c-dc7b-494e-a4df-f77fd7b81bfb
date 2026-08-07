@@ -13,13 +13,13 @@ export default function ProofSection(): React.JSX.Element {
           tag="Trusted in the Community"
           title="Our Standards Meet Luxury Demands"
           names={[
-            "East Broward Estates",
+            "Harbor Beach",
             "Las Olas Luxury Homes",
             "Lighthouse Point",
             "Bay Colony",
             "7 Isles",
-            "Luxury Home Care Guild",
-            "Coastal Property Experts",
+            "Coral Ridge",
+            "Hollywood Beach",
           ]}
           textAnimation="fade"
           description=""
