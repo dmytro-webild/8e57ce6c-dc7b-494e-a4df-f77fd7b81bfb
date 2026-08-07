@@ -12,7 +12,7 @@ export default function InspectionSection() {
     {
       number: "02",
       title: "Restore to the Standard",
-      copy: "The inspection guides the cleaning process, including the right method for each surface."
+      copy: "We use our 32-point cleaning process to restore each point on the inspection and prevent future build up."
     },
     {
       number: "03",
