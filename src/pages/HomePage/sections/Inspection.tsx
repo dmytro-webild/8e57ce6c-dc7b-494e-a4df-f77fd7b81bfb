@@ -114,7 +114,7 @@ export default function InspectionSection() {
           <ScrollReveal variant="fade-blur" delay={0.2} className="max-w-4xl mx-auto mb-12">
             <div className="bg-[#050b82] border-t border-[#bf9945]/50 rounded-lg p-8 md:p-10 text-center shadow-lg">
               <h3 className="text-xl md:text-2xl font-semibold text-[#f1ece4] mb-3">
-                Maintained Between Visits
+                Unrelenting Standard Guarantee
               </h3>
               <p className="text-base text-[#f1ece4]/90 max-w-2xl mx-auto leading-relaxed mb-4">
                 If normal outdoor conditions bring a maintained area below 80% before your next scheduled service, we’ll return and restore it at no additional cost.
