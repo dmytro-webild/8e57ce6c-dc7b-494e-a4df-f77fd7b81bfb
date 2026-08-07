@@ -14,7 +14,7 @@ export default function ProofSection(): React.JSX.Element {
           title="Our Standards Meet Luxury Demands"
           names={[
             "Harbor Beach",
-            "Las Olas Luxury Homes",
+            "Waterfront Homes",
             "Lighthouse Point",
             "Bay Colony",
             "7 Isles",
