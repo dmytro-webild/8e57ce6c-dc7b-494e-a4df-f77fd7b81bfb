@@ -82,6 +82,9 @@ export default function InspectionSection() {
           {/* Scope Row */}
           <ScrollReveal variant="slide-up" delay={0.15} className="mb-16 md:mb-20">
             <div className="max-w-5xl mx-auto py-6 px-4 border-y border-[#bf9945]/20">
+              <h3 className="text-center text-xs md:text-sm font-semibold uppercase tracking-widest text-[#bf9945] mb-4">
+                Inspection Categories
+              </h3>
               {/* Desktop Horizontal Row with Dividers */}
               <div className="hidden md:flex items-center justify-between text-center gap-2">
                 {scopeAreas.map((area, idx) => (
