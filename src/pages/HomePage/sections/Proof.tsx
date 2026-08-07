@@ -15,14 +15,14 @@ export default function ProofSection(): React.JSX.Element {
           names={[
             "East Broward Estates",
             "Las Olas Luxury Homes",
-            "Pompano Premier Living",
-            "Fort Lauderdale Elite",
-            "South Florida Residential Association",
+            "Lighthouse Point",
+            "Bay Colony",
+            "7 Isles",
             "Luxury Home Care Guild",
             "Coastal Property Experts",
           ]}
           textAnimation="fade"
-          description="Description"
+          description=""
         />
         </SectionErrorBoundary>
       </div>
