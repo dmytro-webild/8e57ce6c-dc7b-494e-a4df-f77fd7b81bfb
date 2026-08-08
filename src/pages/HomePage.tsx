@@ -8,7 +8,6 @@ import ContactSection from './HomePage/sections/Contact';
 
 import TrustSection from './HomePage/sections/Trust';
 import ComparisonSection from './HomePage/sections/Comparison';
-import InspectionSection from './HomePage/sections/Inspection';
 
 export default function HomePage(): React.JSX.Element {
   return (
@@ -17,7 +16,6 @@ export default function HomePage(): React.JSX.Element {
       <TrustSection />
       <AboutSection />
       <ComparisonSection />
-      <InspectionSection />
       <ProcessSection />
       <ProofSection />
       <FaqSection />
