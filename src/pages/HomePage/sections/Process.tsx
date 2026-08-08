@@ -10,13 +10,13 @@ export default function ProcessSection(): React.JSX.Element {
     <div id="process" data-section="process">
         <SectionErrorBoundary name="process">
               <FeaturesRevealCardsBento
-          tag="The Unrelenting Standard™"
-          title="32-Point Inspection Process"
-          description="Every square inch of your home is meticulously inspected, cleaned, and restored to our proprietary standard. No shortcuts."
+          tag=""
+          title=""
+          description=""
           items={[
             {
-              title: "Roof Integrity",
-              description: "Check for debris and moss buildup.",
+              title: "",
+              description: "",
               href: "#",
               imageSrc: "http://img.b2bpic.net/free-photo/slate-background-texture-with-copy-space_23-2148283306.jpg",
             },
