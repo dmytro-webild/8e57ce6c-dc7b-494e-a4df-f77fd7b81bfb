@@ -15,7 +15,7 @@ export default function FeaturesSection(): React.JSX.Element {
           description="Exterior care without the hassle"
           items={[
             {
-              title: "Restoration",
+              title: "SRestoration",
               tags: [
                 "Deep Clean",
                 "Safe",
@@ -23,7 +23,7 @@ export default function FeaturesSection(): React.JSX.Element {
               imageSrc: "http://img.b2bpic.net/free-photo/abstract-city-building-shadows_23-2149283297.jpg",
             },
             {
-              title: "Preventative Care",
+              title: "Window Cleaning",
               tags: [
                 "Precision",
                 "Clear",
