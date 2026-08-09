@@ -9,10 +9,6 @@ import { Phone } from 'lucide-react';
 export default function Layout() {
   const navItems = [
   {
-    "name": "Process",
-    "href": "#process"
-  },
-  {
     "name": "The Club",
     "href": "#club"
   },
