@@ -10,10 +10,10 @@ export default function ContactSection(): React.JSX.Element {
     <div id="contact" data-section="contact">
         <SectionErrorBoundary name="contact">
               <ContactCta
-          tag="Join Now"
-          text="Apply for the Home Care Club. Secure your home’s prestige with our Unrelenting Standard™."
+          tag="Apply Now"
+          text="Apply for the Home Care Club and never worry about your home's exterior again."
           primaryButton={{
-            text: "Apply for Membership",
+            text: "Apply Now",
             href: "#",
           }}
           secondaryButton={{
