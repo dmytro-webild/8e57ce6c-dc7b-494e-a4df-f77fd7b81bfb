@@ -15,7 +15,7 @@ export default function FaqSection(): React.JSX.Element {
           description="Everything you need to know about our exclusive Home Care Club."
           items={[
             {
-              question: "What is the 32-Point Unrelenting Standard™?",
+              question: "What is the 32-Point Unrelenting Standard?",
               answer: "It is our proprietary checklist covering every inch of your exterior to ensure zero oversight.",
             },
             {
