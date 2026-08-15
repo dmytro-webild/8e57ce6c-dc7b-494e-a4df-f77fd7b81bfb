@@ -24,10 +24,6 @@ export default function Layout() {
       "href": "#inspection"
     },
     {
-      "name": "Proof",
-      "href": "#proof"
-    },
-    {
       "name": "FAQ",
       "href": "#faq"
     },
