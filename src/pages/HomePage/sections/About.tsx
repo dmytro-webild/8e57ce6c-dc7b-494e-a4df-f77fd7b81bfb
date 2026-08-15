@@ -78,10 +78,12 @@ export default function AboutSection() {
               {/* Deep Navy CTA Button */}
               <div>
                 <a
-                  href="#contact"
+                  href="https://app.youform.com/forms/conyhf2h"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#02066f] text-white font-medium text-base px-8 py-4 rounded hover:bg-[#02066f]/90 transition-colors group text-center"
                 >
-                  <span>Call now</span>
+                  <span>Get a complimentary exterior inspection</span>
                   <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                 </a>
               </div>
