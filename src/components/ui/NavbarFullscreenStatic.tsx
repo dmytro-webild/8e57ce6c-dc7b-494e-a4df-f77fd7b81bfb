@@ -51,9 +51,8 @@ const NavbarFullscreenStatic = ({ logo, navItems, ctaButton }: NavbarFullscreenS
         </a>
 
         <div className="flex items-center gap-2 xl:gap-3 2xl:gap-4">
-          {ctaButton && ctaButton.text && (
-            <Button text={ctaButton.text} href={ctaButton.href} variant="primary" />
-          )}
+          <Button text={ctaButton.text} href={ctaButton.href} variant="primary" animate={false} />
+
           <div
             className="relative flex items-center justify-center size-9 rounded cursor-pointer primary-button"
             onClick={() => setMenuOpen(!menuOpen)}
