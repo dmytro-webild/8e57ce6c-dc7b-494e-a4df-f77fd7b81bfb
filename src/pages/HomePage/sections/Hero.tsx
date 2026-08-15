@@ -40,12 +40,12 @@ export default function HeroSection(): React.JSX.Element {
         <ScrollReveal variant="slide-up" delay={0.2}>
           <div className="flex flex-wrap items-center justify-center gap-4 mt-4">
             <Button
-              text="Call Now"
+              text="Get my complimentary exterior inspection"
               variant="primary"
               href="tel:+19542269454"
             />
             <Button
-              text="Call Now"
+              text="Get my complimentary exterior inspection"
               variant="secondary"
               href="tel:+19542269454"
             />
