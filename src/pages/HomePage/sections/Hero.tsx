@@ -30,7 +30,7 @@ export default function HeroSection(): React.JSX.Element {
         />
 
         <TextAnimation
-          text="Hassle-free, scheduled cleanings that follow our 32-step cleaning process so your home never falls below our 32-Point Standard."
+          text="We keep exterior cleaning off your to-do list and off your mind with scheduled services, 32-point exterior inspections, and a white-glove customer experience"
           variant="slide-up"
           gradientText={false}
           tag="p"
