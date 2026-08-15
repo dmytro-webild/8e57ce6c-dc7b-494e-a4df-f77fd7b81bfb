@@ -56,45 +56,7 @@ export default function Layout() {
         <Phone className="w-4 h-4 fill-current animate-pulse" />
         <span>Call Now</span>
       </a>
-      <SectionErrorBoundary name="footer">
-        <FooterBrand
-      brand="Mister Exteriors"
-      columns={[
-        {
-          items: [
-            {
-              label: "Home Care Club",
-              href: "#",
-            },
-            {
-              label: "Our Process",
-              href: "#",
-            },
-            {
-              label: "About Us",
-              href: "#",
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              label: "Privacy Policy",
-              href: "#",
-            },
-            {
-              label: "Terms of Service",
-              href: "#",
-            },
-            {
-              label: "Contact",
-              href: "#",
-            },
-          ],
-        },
-      ]}
-    />
-      </SectionErrorBoundary>
+
     </StyleProvider>
   );
 }
