@@ -17,7 +17,7 @@ export default function ContactSection(): React.JSX.Element {
             href: "https://app.youform.com/forms/conyhf2h",
           }}
           secondaryButton={{
-            text: "Get my complimentary exterior inspection: (954) 555-0199",
+            text: "Call now: (954) 555-0199",
             href: "tel:9545550199",
           }}
           textAnimation="slide-up"
