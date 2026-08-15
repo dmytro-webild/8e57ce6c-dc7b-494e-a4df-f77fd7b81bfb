@@ -8,28 +8,32 @@ import { Phone } from 'lucide-react';
 export default function Layout() {
   const navItems = [
     {
-      "name": "The Club",
-      "href": "#club"
-    },
-    {
-      "name": "Reviews",
-      "href": "#testimonials"
-    },
-    {
-      "name": "Hero",
-      "href": "#hero"
+      "name": "Why Us",
+      "href": "#trust"
     },
     {
       "name": "About",
       "href": "#about"
     },
     {
-      "name": "Features",
-      "href": "#features"
+      "name": "Comparison",
+      "href": "#comparison"
+    },
+    {
+      "name": "Process",
+      "href": "#inspection"
     },
     {
       "name": "Proof",
       "href": "#proof"
+    },
+    {
+      "name": "FAQ",
+      "href": "#faq"
+    },
+    {
+      "name": "Contact",
+      "href": "#contact"
     }
   ];
 
