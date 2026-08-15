@@ -17,8 +17,8 @@ export default function ContactSection(): React.JSX.Element {
             href: "https://app.youform.com/forms/conyhf2h",
           }}
           secondaryButton={{
-            text: "Call now: (954) 555-0199",
-            href: "tel:9545550199",
+            text: "Call now: (954) 226-9454",
+            href: "tel:+19542269454",
           }}
           textAnimation="slide-up"
         />
