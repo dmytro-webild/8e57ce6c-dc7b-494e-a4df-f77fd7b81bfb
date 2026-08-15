@@ -14,10 +14,10 @@ export default function ContactSection(): React.JSX.Element {
           text="Apply for the Home Care Club and never worry about your home's exterior again."
           primaryButton={{
             text: "Apply Now",
-            href: "#",
+            href: "https://app.youform.com/forms/conyhf2h",
           }}
           secondaryButton={{
-            text: "Call Now: (954) 555-0199",
+            text: "Get my complimentary exterior inspection: (954) 555-0199",
             href: "tel:9545550199",
           }}
           textAnimation="slide-up"

@@ -81,7 +81,7 @@ export default function AboutSection() {
                   href="#contact"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#02066f] text-white font-medium text-base px-8 py-4 rounded hover:bg-[#02066f]/90 transition-colors group text-center"
                 >
-                  <span>Get My Free Exterior Inspection</span>
+                  <span>Get my complimentary exterior inspection</span>
                   <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                 </a>
               </div>
