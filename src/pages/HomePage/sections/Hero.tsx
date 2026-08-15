@@ -42,7 +42,7 @@ export default function HeroSection(): React.JSX.Element {
             <Button
               text="Call Now"
               variant="primary"
-              href="tel:+19542629454"
+              href="tel:+19542269454"
             />
             <Button
               text="Request Free Exterior Inspection"
