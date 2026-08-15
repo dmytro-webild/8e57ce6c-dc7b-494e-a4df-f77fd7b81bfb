@@ -131,7 +131,7 @@ export default function InspectionSection() {
               href="#contact"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#bf9945] text-[#02066f] font-semibold text-base px-8 py-4 rounded hover:bg-[#bf9945]/90 transition-colors group text-center"
             >
-              <span>Get Your Free 32-Point Inspection</span>
+              <span>Get your complimentary exterior inspection</span>
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
           </ScrollReveal>
