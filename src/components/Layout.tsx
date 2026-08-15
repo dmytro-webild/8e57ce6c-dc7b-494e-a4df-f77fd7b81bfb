@@ -50,14 +50,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <a
-        href="#contact"
-        onClick={(e) => {
-          if (window.location.pathname === '/' || window.location.hash) {
-            e.preventDefault();
-            const el = document.getElementById('contact');
-            el?.scrollIntoView({ behavior: 'smooth' });
-          }
-        }}
+        href="tel:+19542269454"
         className="fixed bottom-6 right-6 z-50 flex items-center gap-2.5 px-5 py-3.5 rounded-full font-medium text-sm text-primary-cta-text bg-primary-cta shadow-xl hover:scale-105 active:scale-95 transition-all duration-300 group border border-white/20"
       >
         <Phone className="w-4 h-4 fill-current animate-pulse" />
