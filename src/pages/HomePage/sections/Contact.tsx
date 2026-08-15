@@ -2,14 +2,14 @@
 // file as the canonical source for the "contact" section.
 
 import React from 'react';
-import ContactCta from '@/components/sections/contact/ContactCta';
+import Apply NowCta from '@/components/sections/contact/Apply NowCta';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
-export default function ContactSection(): React.JSX.Element {
+export default function Apply NowSection(): React.JSX.Element {
   return (
     <div id="contact" data-section="contact">
         <SectionErrorBoundary name="contact">
-              <ContactCta
+              <Apply NowCta
           tag="Apply Now"
           text="Apply for the Home Care Club and never worry about your home's exterior again."
           primaryButton={{
