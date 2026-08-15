@@ -144,7 +144,7 @@ export default function ComparisonSection() {
               href="#contact"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#02066f] text-white font-medium text-base px-8 py-4 rounded hover:bg-[#02066f]/90 transition-colors group text-center"
             >
-              <span>Get my complimentary exterior inspection</span>
+              <span>Call now</span>
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
             <p className="text-xs md:text-sm text-foreground/60 mt-3 font-normal">
