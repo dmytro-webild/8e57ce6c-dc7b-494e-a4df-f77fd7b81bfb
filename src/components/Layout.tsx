@@ -36,16 +36,7 @@ export default function Layout() {
   return (
     <StyleProvider buttonVariant="bounce" siteBackground="noise" heroBackground="gradientBars">
       <SiteBackgroundSlot />
-      <SectionErrorBoundary name="navbar">
-        <NavbarFullscreenStatic
-          logo="Mister Exteriors"
-          ctaButton={{
-            text: "Call Now",
-            href: "tel:+19542269454",
-          }}
-          navItems={navItems}
-        />
-      </SectionErrorBoundary>
+
       <main className="flex-grow">
         <Outlet />
       </main>
