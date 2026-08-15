@@ -1,38 +1,9 @@
-import NavbarFullscreenStatic from '@/components/ui/NavbarFullscreenStatic';
-import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
 import { Outlet } from 'react-router-dom';
 import { StyleProvider } from "@/components/ui/StyleProvider";
 import { Phone } from 'lucide-react';
 
 export default function Layout() {
-  const navItems = [
-    {
-      "name": "The Club",
-      "href": "#club"
-    },
-    {
-      "name": "Reviews",
-      "href": "#testimonials"
-    },
-    {
-      "name": "Hero",
-      "href": "#hero"
-    },
-    {
-      "name": "About",
-      "href": "#about"
-    },
-    {
-      "name": "Features",
-      "href": "#features"
-    },
-    {
-      "name": "Proof",
-      "href": "#proof"
-    }
-  ];
-
   return (
     <StyleProvider buttonVariant="bounce" siteBackground="noise" heroBackground="gradientBars">
       <SiteBackgroundSlot />
