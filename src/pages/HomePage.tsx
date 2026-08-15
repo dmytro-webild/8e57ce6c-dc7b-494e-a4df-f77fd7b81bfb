@@ -1,9 +1,9 @@
 import React from 'react';
 import HeroSection from './HomePage/sections/Hero';
 import AboutSection from './HomePage/sections/About';
-import ProofSection from './HomePage/sections/Proof';
+import Communities Section from './HomePage/sections/Communities ';
 import FaqSection from './HomePage/sections/Faq';
-import ContactSection from './HomePage/sections/Contact';
+import Apply NowSection from './HomePage/sections/Apply Now';
 
 import TrustSection from './HomePage/sections/Trust';
 import ComparisonSection from './HomePage/sections/Comparison';
@@ -17,9 +17,9 @@ export default function HomePage(): React.JSX.Element {
       <AboutSection />
       <ComparisonSection />
       <InspectionSection />
-      <ProofSection />
+      <Communities Section />
       <FaqSection />
-      <ContactSection />
+      <Apply NowSection />
     </>
   );
 }
