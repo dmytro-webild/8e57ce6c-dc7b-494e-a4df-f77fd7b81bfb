@@ -43,6 +43,7 @@ export default function HeroSection(): React.JSX.Element {
               text="Get a complimentary exterior inspection"
               variant="primary"
               href="https://app.youform.com/forms/conyhf2h"
+              className="px-7 py-3.5 h-auto text-base font-semibold bg-gradient-to-r from-[#a57d30] via-[#c59b4e] to-[#a57d30] text-white rounded-lg shadow-lg shadow-[#a57d30]/20 hover:shadow-xl hover:shadow-[#a57d30]/40 hover:scale-[1.02] transition-all duration-300 border border-[#e5c175]/30"
             />
             <Button
               text="Call now"
