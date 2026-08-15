@@ -128,10 +128,12 @@ export default function InspectionSection() {
           {/* Centered Gold CTA Button */}
           <ScrollReveal variant="slide-up" delay={0.25} className="flex flex-col items-center text-center">
             <a
-              href="#contact"
+              href="https://app.youform.com/forms/conyhf2h"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#bf9945] text-[#02066f] font-semibold text-base px-8 py-4 rounded hover:bg-[#bf9945]/90 transition-colors group text-center"
             >
-              <span>Get your complimentary exterior inspection</span>
+              <span>Get a complimentary exterior inspection</span>
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
           </ScrollReveal>
