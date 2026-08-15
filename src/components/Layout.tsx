@@ -42,7 +42,7 @@ export default function Layout() {
       logo="Mister Exteriors"
       ctaButton={{
         text: "Call Now",
-        href: "#contact",
+        href: "tel:+19542269454",
       }}
      navItems={navItems} />
       </SectionErrorBoundary>
