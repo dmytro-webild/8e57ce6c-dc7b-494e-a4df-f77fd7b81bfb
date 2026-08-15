@@ -43,7 +43,7 @@ export default function Layout() {
             text: "",
             href: "",
           }}
-          navItems={[]}
+          navItems={navItems}
         />
       </SectionErrorBoundary>
       <main className="flex-grow">
