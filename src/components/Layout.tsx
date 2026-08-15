@@ -40,10 +40,10 @@ export default function Layout() {
         <NavbarFullscreenStatic
           logo="Mister Exteriors"
           ctaButton={{
-            text: "Call Now",
-            href: "tel:+19542269454",
+            text: "",
+            href: "",
           }}
-          navItems={navItems}
+          navItems={[]}
         />
       </SectionErrorBoundary>
       <main className="flex-grow">
